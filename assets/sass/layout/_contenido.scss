@@ -1,0 +1,25 @@
+.contenido {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.contenido__listado {
+    width: 700px;
+    float: left;
+}
+
+.contenido__noticia {
+    width: 210px;
+    display: inline-block;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.contenido__noticia--cuerpo img {
+    width: 210px;
+    height: 300px;
+}
+
+.contenido__noticia--cuerpo p {
+    padding: 5px 10px;
+}
