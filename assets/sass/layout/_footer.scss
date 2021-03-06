@@ -1,5 +1,5 @@
 .footer {
-    width: 960px;
+    @include relative-converter-viewport(width,vw,960,1180);
     margin: 0 auto;
     text-align: center;
 }

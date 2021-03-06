@@ -6,7 +6,7 @@ body {
     font-family: monospace;
 }
 
-.contenedor {
-    width: 960px;
+.cuerpo {
+    @include relative-converter-viewport(width,wv,960,1180);
     margin: 0 auto;
 }

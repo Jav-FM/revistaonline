@@ -5,23 +5,25 @@
     <meta charset="UTF-8">
     <title>Desafio</title>
     <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
-    <div class="contenedor">
-        <div class="menu">
-            <div class="menu__logo">Diario</div>
+    <div class="menu">
+        <div class="menu__logo">Revista</div>
             <div class="menu__nav">
                 <ul>
-                    <li><a href="">Nosotros</a></li>
+                    <li id="onlyMdAndMore"><a href="">Nosotros</a></li>
                     <li><a href="">Contacto</a></li>
                     <li><input class="input-menu" type="text" name="buscar" placeholder="buscar..." /></li>
                 </ul>
             </div>
         </div>
-        <div class="contenido">
-            <div class="contenido__listado">
-                <div class="contenido__noticia">
+    </div>
+    <div class="cuerpo container">
+        <div class="row">
+            <div class="contenido col-12 col-xs-8">
+                <div class="contenido__noticia item">
                     <div class="contenido__noticia--cabecera">
                         <h2>
                             Lorem ipsum dolor sit amet,
@@ -34,7 +36,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="contenido__noticia">
+                <div class="contenido__noticia item">
                     <div class="contenido__noticia--cabecera">
                         <h2>
                             Lorem ipsum dolor sit amet,
@@ -47,7 +49,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="contenido__noticia">
+                <div class="contenido__noticia item">
                     <div class="contenido__noticia--cabecera">
                         <h2>
                             Lorem ipsum dolor sit amet,
@@ -60,7 +62,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="contenido__noticia">
+                <div class="contenido__noticia item">
                     <div class="contenido__noticia--cabecera">
                         <h2>
                             Lorem ipsum dolor sit amet,
@@ -73,7 +75,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="contenido__noticia">
+                <div class="contenido__noticia item">
                     <div class="contenido__noticia--cabecera">
                         <h2>
                             Lorem ipsum dolor sit amet,
@@ -86,27 +88,27 @@
                         </p>
                     </div>
                 </div>
-                <div class="contenido__noticia">
-                    <div class="contenido__noticia--cabecera">
-                        <h2>
-                            Lorem ipsum dolor sit amet,
-                        </h2>
-                    </div>
-                    <div class="contenido__noticia--cuerpo">
-                        <img src="https://picsum.photos/200/300?random=6" />
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        </p>
-                    </div>
+                <div class="contenido__noticia item">
+                        <div class="contenido__noticia--cabecera">
+                            <h2>
+                                Lorem ipsum dolor sit amet,
+                            </h2>
+                        </div>
+                        <div class="contenido__noticia--cuerpo">
+                            <img src="https://picsum.photos/200/300?random=6" />
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            </p>
+                        </div>
                 </div>
             </div>
-            <div class="listado-izquierdo">
+            <div class="listado-izquierdo item col-xs-4">
                 <div class="listado-izquierdo__cabecera">
                     <h1>Nosotros </h1>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                     </p>
                 </div>
                 <div class="listado-izquierdo__tags">
@@ -134,16 +136,18 @@
                 </div>
             </div>
         </div>
-        <div class="listado-izquierdo__newsletter">
+    </div>
+    <div class="suscripcion">
+        <div class="suscripcion__contenido">
             <h2>Lorem ipsum dolor sit amet</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
-            <div class="listado-izquierdo__newsletter--group">
+            <div class="suscripcion__group">
                 <input type="text" name=""><button>Suscríbete</button>
             </div>
         </div>
-        <div class="footer">
-            <p>Todos los derechos reservados</p>
-        </div>
+    </div>
+    <div class="footer">
+        <p>Todos los derechos reservados</p>
     </div>
 </body>
 

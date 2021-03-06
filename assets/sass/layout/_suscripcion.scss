@@ -1,0 +1,10 @@
+.suscripcion {
+    background-color: #fad49a;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.suscripcion h2 {
+    @include relative-converter-fonts(font-size,rem,24,16);
+}
