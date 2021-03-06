@@ -6,14 +6,12 @@
     align-content: flex-start;
 }
 .contenido__noticia {
-    display: inline-block;
     padding: 6px;
     cursor: pointer;
 }
 
 .contenido__noticia--cuerpo img {
-    width: 90%;
-    justify-self: center;
+    width: 100%;
 }
 
 .contenido__noticia--cuerpo p {
@@ -21,7 +19,9 @@
 }
 
 @media only screen and (max-width: 575px){
-
+    .contenido__noticia {
+        width: 100%;
+    }
 }
 
 @media only screen and (min-width: 576px) {
